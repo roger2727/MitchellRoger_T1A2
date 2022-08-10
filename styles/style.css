@@ -7,10 +7,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body,
-html {
-  height: 100vh;
-}
 
 .header-box {
   display: flex;
@@ -38,17 +34,18 @@ html {
 }
 .hero {
   width: 100%;
-
+  height: 85vh;
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
   display: flex;
   justify-content: center;
 
   gap: 5%;
-  padding: 50px;
+  padding: 30px 100px 30px 100px;
 }
+
 .profile-pic {
   border-radius: 8px;
-  box-shadow: rgba(255, 255, 255, 0.487) 0px 5px 15px;
+  box-shadow: rgb(255, 255, 255) 0px 5px 30px;
   scale: 0.8;
 }
 .text-box {
@@ -72,36 +69,44 @@ html {
 }
 .icons {
   width: 35px;
-  margin-bottom: 10px;
 }
 .projects-content {
   display: flex;
   flex-direction: column;
-
-  width: 80%;
-  justify-content: space-evenly;
+  gap: 100px;
+  width: 90%;
+  padding: 30px;
 }
 .projects-box {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 30%;
+  height: 350px;
   border-radius: 8px;
   background-color: #0f2027;
+  box-shadow: rgb(0, 0, 0) 0px 5px 30px;
 }
+
 .project-pic {
-  width: 29.6%;
+  border-radius: 8px 0px 0px 8px;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  object-fit: cover;
 }
 .project-text {
   color: white;
+  overflow: auto;
 }
 .project-heading {
   color: #e4b200;
+  overflow: auto;
 }
 
 .project-links {
   width: 100%;
   padding: 10px;
+  margin-bottom: 20px;
   text-decoration: none;
   background-color: #e4b200;
   border-radius: 20px;
@@ -111,8 +116,10 @@ html {
   flex-direction: column;
   margin: 20px;
   height: 100%;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
+  overflow: auto;
+  padding: 30px;
 }
 .link-btn {
   width: 100%;
@@ -125,10 +132,11 @@ html {
 }
 .hero-projects {
   width: 100%;
-  height: 85vh;
+  height: 150vh;
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .footer {
