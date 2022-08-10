@@ -6,6 +6,7 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-weight: 100;
 }
 
 .header-box {
@@ -17,15 +18,14 @@
 .logo {
   margin-left: 50px;
   color: white;
+  font-weight: bold;
 
   padding: 20px;
-  font-weight: bold;
 }
 .nav-links {
   display: flex;
   gap: 100px;
   margin-right: 100px;
-  font-weight: bold;
 }
 .links {
   text-decoration: none;
@@ -54,7 +54,7 @@
 .text {
   font-size: 25px;
   color: white;
-  font-weight: 100;
+
   padding-top: 50px;
 }
 .main-heading {
@@ -81,7 +81,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 350px;
+  height: 400px;
   border-radius: 8px;
   background-color: #0f2027;
   box-shadow: rgb(0, 0, 0) 0px 5px 30px;
@@ -97,10 +97,13 @@
 .project-text {
   color: white;
   overflow: auto;
+
+  font-size: 20px;
 }
 .project-heading {
   color: #e4b200;
   overflow: auto;
+  font-size: 25px;
 }
 
 .project-links {
@@ -145,4 +148,50 @@
   background-color: #0f2027;
   color: white;
   text-align: center;
+}
+/* contact */
+
+.hero-contact {
+  width: 100%;
+  height: 85vh;
+  background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-box {
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #0f2027;
+  width: 50%;
+  height: auto;
+  padding: 40px;
+  box-shadow: rgb(0, 0, 0) 0px 5px 30px;
+}
+
+.contact-links {
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+
+  color: white;
+}
+.list-item {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.icon-box {
+  display: flex;
+  gap: 20px;
+}
+.social-icons {
+  width: 70px;
+}
+.social-box {
+  display: flex;
+
+  gap: 30px;
 }
