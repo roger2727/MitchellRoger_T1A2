@@ -12,34 +12,180 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
       rel="stylesheet"
     />
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- script for nav bar -->
   </head>
-
   <body>
     <!--Navigation bar-->
     <div id="nav-placeholder"></div>
+    <!-- main section of page -->
+    <main class="hero-blog">
+      <!-- heading of blog -->
+      <h1 class="main-heading">
+        BLOG
+        <hr />
+      </h1>
 
-    <!--end of Navigation bar-->
+      <div class="blog-content">
+        <ul class="blog-list">
+          <!-- day 1 blog list -->
+          <li>
+            <img
+              class="blog-pic"
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            />
+            <p class="date">08/08/2022</p>
+            <a class="blog-links" href="#day-one">
+              Web development boot camp day 1
+            </a>
+          </li>
+          <!-- day 2 blog list -->
+          <li>
+            <img
+              class="blog-pic"
+              src="https://images.unsplash.com/photo-1603969072881-b0fc7f3d77d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+            />
+            <p class="date">09/08/2022</p>
+            <a id="link" class="blog-links" href="#day-two"
+              >Web development boot camp day 2
+            </a>
+          </li>
 
-    <!-- main section -->
-    <section class="hero">
-      <img class="profile-pic" src="images/me.png" alt="profile pic" />
+          <li>
+            <!-- day 3 blog list-->
+            <img
+              class="blog-pic"
+              src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80"
+            />
+            <p class="date">10/08/2022</p>
 
-      <blockquote class="text-box">
-        <h1 class="main-heading">ABOUT ME</h1>
-        <hr class="line-break" />
-        <p class="text">
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
-          delectus, quas alias tempore quia magni earum in eveniet dolorem neque
-          nobis, vitae aliquam et a explicabo adipisci fugiat perspiciatis
-          aperiam."
-        </p>
-      </blockquote>
-    </section>
+            <a class="blog-links" href="#day-three">
+              Web development boot camp day 3
+            </a>
+          </li>
+          <!-- day 4 blog list -->
+          <li>
+            <img
+              class="blog-pic"
+              src="https://images.unsplash.com/photo-1603468620905-8de7d86b781e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
+            />
+            <p class="date">11/08/2022</p>
+            <a class="blog-links" href="#day-four"
+              >Web development boot camp day 4
+            </a>
+          </li>
+          <!-- day 5 blog list  -->
+          <li>
+            <img
+              class="blog-pic"
+              src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
+            />
+            <p class="date">12/08`/2022</p>
+            <a class="blog-links" href="day-five"
+              >Web development boot camp day 5
+            </a>
+          </li>
+        </ul>
+
+        <aside class="aside">
+          <!-- day 1 blog post -->
+          <div class="card">
+            <h1 id="day-one" class="blog-heading">
+              Web development boot camp day 1
+            </h1>
+            <div class="container">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+              />
+              <section class="blog-text">
+                <p class="blog">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  laboriosam, illum sint quidem enim iure hic corrupti saepe
+                  numquam autem cumque nobis, eve classiet deleniti eaque magnam
+                  eum! Sunt, quidem illum.
+                </p>
+              </section>
+            </div>
+          </div>
+
+          <!-- day 2 blog post -->
+          <div id="day-two" class="card">
+            <h1 class="blog-heading">Web development boot camp day 1</h1>
+            <div class="container">
+              <img
+                src="https://images.unsplash.com/photo-1603969072881-b0fc7f3d77d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+              />
+              <section class="blog-text">
+                <p class="blog">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  laboriosam, illum sint quidem enim iure hic corrupti saepe
+                  numquam autem cumque nobis, eve classiet deleniti eaque magnam
+                  eum! Sunt, quidem illum.
+                </p>
+              </section>
+            </div>
+          </div>
+          <!-- day 3 blog post -->
+          <div class="card">
+            <h1 id="day-three" class="blog-heading">
+              Web development boot camp day 1
+            </h1>
+            <div class="container">
+              <img
+                src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80"
+              />
+              <section class="blog-text">
+                <p class="blog">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  laboriosam, illum sint quidem enim iure hic corrupti saepe
+                  numquam autem cumque nobis, eve classiet deleniti eaque magnam
+                  eum! Sunt, quidem illum.
+                </p>
+              </section>
+            </div>
+          </div>
+          <!-- day 4 blog post -->
+          <div class="card">
+            <h1 class="blog-heading">Web development boot camp day 1</h1>
+            <div class="container">
+              <img
+                src="https://images.unsplash.com/photo-1603468620905-8de7d86b781e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
+              />
+              <section class="blog-text">
+                <h4 class="sub-heading">Day 4</h4>
+
+                <p class="blog">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                </p>
+              </section>
+            </div>
+          </div>
+          <!-- day 5 blog post -->
+          <div class="card">
+            <h1 class="blog-heading">Web development boot camp day 1</h1>
+            <div class="container">
+              <img
+                src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
+              />
+              <section class="blog-text">
+                <h4 class="sub-heading">Day 5</h4>
+
+                <p class="blog">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  laboriosam, illum sint quidem enim iure hic corrupti saepe
+                  numquam autem cumque nobis, eve classiet deleniti eaque magnam
+                  eum! Sunt, quidem illum.
+                </p>
+              </section>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
     <footer class="footer">
       <p>Created by Mitchell Roger. © 2020</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="/js/script.js"></script>
   </body>
 </html>
