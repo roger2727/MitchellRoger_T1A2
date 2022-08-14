@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>skills</title>
+    <!-- links css file to page -->
     <link rel="stylesheet" href="/styles/style.css" />
+    <!--  loads google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,19 +17,23 @@
   </head>
   <body>
     <!-- header with logo and links  -->
-
     <div id="nav-placeholder"></div>
-    <!-- main section -->
-    <section class="hero-projects">
-      <h1 class="main-heading">
-        SKILL'S & PROJECTS
-        <hr />
-      </h1>
 
-      <section class="projects-box">
-        <img class="project-pic" src="images/mobile.png" />
+    <!-- main section -->
+    <main class="hero-projects">
+      <!-- heading to page -->
+      <h1 class="heading">SKILL'S & PROJECTS</h1>
+      <hr />
+      <!-- card for project -->
+      <div class="projects-box">
+        <img
+          class="project-pic"
+          src="images/mobile.png"
+          alt="person playing mobile game"
+        />
+        <!-- info about project -->
         <article class="content-box">
-          <h3 class="project-heading">KINGS OF WINGS GAME</h3>
+          <h2 class="project-heading">KINGS OF WINGS GAME</h2>
           <p class="project-text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, id
             ducimus? Minus ullam cum quis iusto, eligendi aliquam facere itaque
@@ -38,24 +44,26 @@
           <a
             class="project-links"
             href="https://github.com/roger2727/flask-kow/tree/main"
-            >SOURCE CODE</a
+            ><h3>SOURCE CODE</h3></a
           >
-
-          <h3 class="project-heading">Tech Stack</h3>
-          <div class="heading-box">
-            <img class="icons" src="images/html.png" />
-            <img class="icons" src="images/css-3.png" />
-            <img class="icons" src="images/python.png" />
-            <img class="icons" src="images/flask.png" />
-          </div>
+          <!-- icons of programing languages -->
+          <h2 class="project-heading">TECH STACK</h2>
+          <span class="heading-box">
+            <img class="icons" src="images/html.png" alt="html icon" />
+            <img class="icons" src="images/css-3.png" alt="css icon" />
+            <img class="icons" src="images/python.png" alt="python icon" />
+            <img class="icons" src="images/flask.png" alt="flask icon" />
+          </span>
         </article>
-      </section>
-    </section>
-
+      </div>
+    </main>
+    <!-- footer -->
     <footer class="footer">
-      <p>Created by Mitchell Roger. © 2020</p>
+      <p>Created by Mitchell Roger. © 2022</p>
     </footer>
+    <!-- load the jquery -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- loads the js script -->
     <script src="/js/script.js"></script>
   </body>
 </html>

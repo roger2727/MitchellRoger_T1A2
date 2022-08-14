@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>contact</title>
+    <!-- links css file to page -->
     <link rel="stylesheet" href="/styles/style.css" />
+    <!--  loads google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,20 +18,18 @@
   <body>
     <!-- header with logo and links  -->
     <div id="nav-placeholder"></div>
-    <section class="hero-contact">
-      <section class="contact-box">
-        <span>
-          <h1 class="main-heading">CONTACT</h1>
-          <hr />
-        </span>
-        <p class="project-text">For further inquiries, please contact me.</p>
-        <span class="icon-box">
-          <img
-            class="icons"
-            src="images/icons8-mail-48.png"
-            alt="profile pic"
-          />
 
+    <!-- main section -->
+    <main class="hero-contact">
+      <!-- contact box -->
+      <article class="contact-box">
+        <h1 class="heading">CONTACT</h1>
+        <hr />
+        <p class="project-text">For further inquiries, please contact me.</p>
+        <!-- a box to put icon and text side by side -->
+        <span class="icon-box">
+          <!-- email -->
+          <img class="icons" src="images/icons8-mail-48.png" alt="email icon" />
           <a
             class="contact-links"
             href="mailto:#"
@@ -38,11 +38,13 @@
             >roger.mitch27@gmail.com</a
           >
         </span>
+
+        <!-- phone number -->
         <span class="icon-box">
           <img
             class="icons"
             src="images/icons8-phone-50.png"
-            alt="profile pic"
+            alt="phone icon"
           />
           <a
             class="contact-links"
@@ -52,11 +54,13 @@
             >0406801622</a
           >
         </span>
+
+        <!-- location -->
         <span class="icon-box">
           <img
             class="icons"
             src="images/icons8-location-50.png"
-            alt="profile pic"
+            alt="gps icon"
           />
           <a
             class="contact-links"
@@ -66,38 +70,43 @@
             >Newcastle, NSW</a
           >
         </span>
-        <span>
-          <h1 class="main-heading">SOCIAL PLATFORM'S</h1>
-          <hr />
-        </span>
-        <div class="social-box">
+        <!-- social platform section -->
+        <h1 class="main-heading">SOCIAL PLATFORM'S</h1>
+        <hr />
+        <!-- box for social platform icons to flex row  -->
+        <span class="social-box">
+          <!-- git hub link -->
           <a
             href="https://github.com/roger2727?tab=repositories"
             target="_blank"
           >
             <img
               class="social-icons"
-              alt="Qries"
+              alt="github icon"
               src="images/icons8-github-90.png"
             />
           </a>
+          <!-- linkedin link -->
           <a
             href="https://www.linkedin.com/in/mitchell-roger-31b551248/"
             target="_blank"
           >
             <img
               class="social-icons"
-              alt="Qries"
+              alt="linkedin icon"
               src="images/icons8-linkedin-circled-90.png"
             />
           </a>
-        </div>
-      </section>
-    </section>
+        </span>
+      </article>
+    </main>
+    <!-- footer -->
     <footer class="footer">
-      <p>Created by Mitchell Roger. © 2020</p>
+      <p>Created by Mitchell Roger. © 2022</p>
     </footer>
+    <!-- load the jquery -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- loads the js script -->
     <script src="/js/script.js"></script>
   </body>
 </html>
