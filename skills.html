@@ -16,49 +16,91 @@
     />
   </head>
   <body>
-    <!-- header with logo and links  -->
-    <div id="nav-placeholder"></div>
-
+    <header>
+      <!-- header with logo and links  -->
+      <nav id="nav-placeholder"></nav>
+    </header>
     <!-- main section -->
     <main class="hero-projects">
       <!-- heading to page -->
-      <h1 class="heading">SKILL'S & PROJECTS</h1>
-      <hr />
+
       <!-- card for project -->
-      <div class="projects-box">
+
+      <!-- component which contains text content that are styled appropriately for audience -->
+      <article class="content-box">
+        <h1 class="heading">SKILL'S & PROJECTS</h1>
+        <hr />
+
+        <h2 class="project-heading">KINGS OF WINGS GAME</h2>
+
+        <!-- info about the game -->
+        <p class="project-text">
+          This is my first personal project that I built with HTML, CSS Python
+          and Flask, kings of wings is a game that combines two of my favourite
+          things eating hot wings and sitting down with a group of mates to have
+          some fun.
+        </p>
+        <!-- a list SKILLS -->
+        <h3 class="sub-heading">SKILLS I GAINED FROM BUILDING THIS PROJECT</h3>
+        <ul>
+          <li class="project-list">
+            <p class="project-text">
+              Using Python to save user input as a variable to use in a random
+              number generator
+            </p>
+          </li>
+          <li class="project-list">
+            <p class="project-text">
+              how to create a list and use python to go through the list and
+              choose a random string from the list
+            </p>
+          </li>
+          <li class="project-list">
+            <p class="project-text">
+              how to display a variable from python in HTML buy using flask
+            </p>
+          </li>
+          <li class="project-list">
+            <p class="project-text">using flask to render html templates</p>
+          </li>
+          <li class="project-list">
+            <p class="project-text">
+              How to create a function that counts every time the page gets
+              rendered to act as a round counter to end the game
+            </p>
+          </li>
+        </ul>
+
+        <a
+          class="project-links"
+          href="https://github.com/roger2727/flask-kow/tree/main"
+          target="_blank"
+          ><h3>SOURCE CODE</h3></a
+        >
+        <!-- icons of programing languages -->
+        <h2 class="project-heading">TECHNICAL SKILLS</h2>
+        <span class="heading-box">
+          <img class="icons" src="images/html.png" alt="html icon" />
+          <img class="icons" src="images/css-3.png" alt="css icon" />
+          <img class="icons" src="images/python.png" alt="python icon" />
+          <img class="icons" src="images/flask.png" alt="flask icon" />
+        </span>
+      </article>
+      <aside>
         <img
           class="project-pic"
           src="images/mobile.png"
           alt="person playing mobile game"
         />
-        <!-- info about project -->
-        <article class="content-box">
-          <h2 class="project-heading">KINGS OF WINGS GAME</h2>
-          <p class="project-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, id
-            ducimus? Minus ullam cum quis iusto, eligendi aliquam facere itaque
-            repudiandae, exercitationem fugit excepturi non vitae. Consequatur
-            ipsa alias eaque!
-          </p>
-
-          <a
-            class="project-links"
-            href="https://github.com/roger2727/flask-kow/tree/main"
-            ><h3>SOURCE CODE</h3></a
-          >
-          <!-- icons of programing languages -->
-          <h2 class="project-heading">TECH STACK</h2>
-          <span class="heading-box">
-            <img class="icons" src="images/html.png" alt="html icon" />
-            <img class="icons" src="images/css-3.png" alt="css icon" />
-            <img class="icons" src="images/python.png" alt="python icon" />
-            <img class="icons" src="images/flask.png" alt="flask icon" />
-          </span>
-        </article>
-      </div>
+        <img
+          class="project-pic"
+          src="images/Screen Shot 2022-08-16 at 3.39.29 pm.png"
+          alt="person playing mobile game"
+        />
+      </aside>
     </main>
     <!-- footer -->
-    <footer class="footer">
+    <footer>
       <p>Created by Mitchell Roger. © 2022</p>
     </footer>
     <!-- load the jquery -->

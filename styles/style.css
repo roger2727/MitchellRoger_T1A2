@@ -1,13 +1,12 @@
-/* changes the default on all pages */
+/* changes the default on all pages and add the font weight*/
 * {
   padding: 0;
-  margin: 0px;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
 }
-/*************************** home/about page *****************************/
-
+/*************************** navbar *****************************/
 /* header box */
 .header-box {
   display: flex;
@@ -17,16 +16,15 @@
 }
 /* logo */
 .logo {
-  margin-left: 50px;
   color: white;
   font-weight: bold;
-  padding: 20px;
+  padding: 1rem;
 }
 /* navigation links box */
 .nav-links {
   display: flex;
-  gap: 100px;
-  margin-right: 100px;
+  gap: 10rem;
+  padding: 1rem;
 }
 /* links  */
 .links {
@@ -34,70 +32,99 @@
   font-size: 1.2rem;
   color: white;
 }
-/* home page hero */
+/*************************** home/about page *****************************/
+
+/* main hero of home page */
 .hero {
-  height: 85vh;
+  padding: 5rem;
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
-  display: flex;
-  padding: 30px 100px 30px 100px;
-  align-items: center;
 }
-/* profile  pic */
-.profile-pic {
-  border-radius: 8px;
-  box-shadow: rgb(255, 255, 255) 0px 5px 30px;
-  scale: 0.8;
-}
-
-.text {
-  color: white;
-  font-size: 1.6rem;
-
-  padding-top: 50px;
-}
-/* main heading to pages */
+/* main heading to home page */
 .main-heading {
   color: #e4b200;
 }
-/* heading box */
-.heading-box {
+/* profile pic */
+.profile-pic {
+  box-shadow: rgb(255, 255, 255) 0px 5px 30px;
+}
+/* text box that surrounds text */
+.text-box {
   display: flex;
+  background-color: #0f2027;
   align-items: center;
-  justify-content: flex-start;
-  gap: 20px;
+  align-content: center;
+  border-radius: 8px;
+}
+.text {
+  padding-top: 1rem;
+  color: white;
+}
+/* resume link */
+.resume {
+  color: #e4b200;
+  text-decoration: none;
+}
+/* when hover over link it grows */
+.resume:hover {
+  font-size: 1.2rem;
+}
+.about-article {
+  padding: 5rem;
 }
 
 /*************************** skills and project page *****************************/
+/* main hero to projects */
 .hero-projects {
-  width: 100%;
-  height: 85vh;
+  display: flex;
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
-  padding: 30px;
+  padding: 5rem;
 }
 /* icons on skills and projects */
 .icons {
-  width: 50px;
+  width: 100px;
+  padding-right: 2rem;
 }
 /* card that holds content */
 .projects-box {
   display: flex;
-  border-radius: 8px;
   background-color: rgb(15, 32, 39);
   box-shadow: rgb(0 0 0 / 70%) 0px 5px 30px;
-  margin-top: 30px;
 }
-
+/* box with all the content inside */
+.content-box {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1rem;
+  background-color: #0f2027;
+  justify-content: space-evenly;
+}
+/* project picture */
+.project-pic {
+  width: 100%;
+}
+/* box for the blog posts */
+aside {
+  background-color: #0f2027;
+}
+/* change the color of text */
 .project-text {
   color: white;
 }
 .project-heading {
   color: #e4b200;
 }
+.sub-heading {
+  color: #e4b200;
+}
+.project-list {
+  color: #e4b200;
+}
+
 /* source code button */
 .project-links {
-  width: 100%;
   color: white;
-  padding: 10px;
+  padding: 1rem;
   text-decoration: none;
   background-color: #56698f;
   border-radius: 20px;
@@ -105,12 +132,6 @@
   font-weight: bold;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.content-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 30px;
 }
 
 /*************************** blog page *****************************/
@@ -120,27 +141,25 @@
 /* main hero */
 .blog-content {
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
-  width: 100%;
   display: flex;
-  gap: 50px;
-  padding: 50px;
+  padding: 1rem;
 }
 /* ----blog list section----- */
 .blog-list-box {
   height: 100%;
-  display: flex;
-  width: 50%;
+  width: 70%;
   position: sticky;
   top: 0;
-  float: left;
-  display: block;
+  background-color: #0f2027;
+  padding: 1rem;
 }
+/* blog picture */
 .blog-list-pic {
   width: 100%;
-  height: 50px;
+  height: 40px;
   object-fit: cover;
-  filter: brightness(40%);
 }
+/* blog links to post */
 .blog-links {
   color: #e4b200;
   text-decoration: none;
@@ -148,13 +167,14 @@
 .date {
   color: white;
 }
+
+/* box for the blog list */
 .blog-list {
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  width: 100%;
+  gap: 1rem;
   list-style: none;
-  padding-top: 30px;
+  background-color: #0f2027;
 }
 /* -----blog post section----- */
 .aside {
@@ -162,20 +182,21 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  width: 90%;
+  gap: 5rem;
+  width: 100%;
 }
+/* box for the blog list */
 .card {
   background-color: #0f2027;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  margin-top: 30px;
+  width: 70%;
 }
 .heading {
   color: #e4b200;
 }
 /* blog post text */
 .blog {
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 
 .blog-pic {
@@ -187,115 +208,124 @@
   text-align: center;
 }
 .blog {
-  padding: 20px;
+  padding: 1rem;
   color: white;
 }
 
 /*************************** contact page *****************************/
+/* maincontact hero */
 
-/* main section */
 .hero-contact {
-  width: 100%;
-  height: 85vh;
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 2.5rem;
   align-items: center;
 }
-/* card for contacts */
+/* section box */
+.contact-section {
+  width: 50%;
+}
+/* contact box */
 .contact-box {
   display: flex;
-  border-radius: 8px;
   flex-direction: column;
-  gap: 30px;
   background-color: #0f2027;
-  width: 50%;
-  height: auto;
-  padding: 40px;
-  box-shadow: rgb(0, 0, 0) 0px 5px 30px;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: rgb(255, 255, 255) 0px 5px 30px;
 }
-
-.contact-links {
-  text-decoration: none;
-  list-style: none;
-  font-size: 20px;
-  color: white;
+/* icons */
+.contact-icons {
+  width: 1.5rem;
+  height: 1.5rem;
 }
-
+/* box for the icons */
 .icon-box {
   display: flex;
-  gap: 20px;
+  width: 50%;
+  gap: 1rem;
 }
+/* contact links */
+.contact-links {
+  color: white;
+  text-decoration: none;
+}
+/* social icons */
 .social-icons {
-  width: 70px;
+  width: 50px;
 }
-.social-box {
-  display: flex;
-
-  gap: 30px;
+/* contact pic */
+.contact-pic {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 /*************************** footer *****************************/
-.footer {
-  width: 100%;
-  height: 6vh;
+footer {
+  padding: 1rem;
   background-color: #0f2027;
   color: white;
   text-align: center;
 }
 
 /*************************** media querie *****************************/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   /* nav bar */
+  /* removes margin and drops the nav bar vertical */
   .header-box {
     flex-direction: column;
     align-items: stretch;
     margin: 0%;
   }
+  /* removes padding on logo */
   .logo {
     padding: 0;
     margin: 0;
     text-align: center;
     padding-left: 20px;
   }
+  /* makes all the link go vertical */
   .nav-links {
     flex-direction: column;
-
     gap: 1em;
     margin: 0;
     padding-bottom: 10px;
     padding-left: 20px;
   }
-  /* about page */
-  .hero {
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 0%;
-  }
+  /* about me page */
+
+  /* shrinks the pic and makes it a circle */
   .profile-pic {
+    width: 230px;
+    height: 230px;
     object-fit: cover;
-    width: 330px;
-    height: 330px;
+    margin-top: 1rem;
     border-radius: 50%;
   }
+  /* drops the padding */
+  .about-article {
+    padding: 1rem;
+  }
+  /* shrinks the padding */
+  .hero {
+    padding: 1rem;
+  }
+  /* make the text box bigger */
   .text-box {
-    padding: 5%;
+    flex-direction: column;
+    width: 100%;
   }
   /* skills and projects page */
   .hero-projects {
-    height: 100%;
-  }
-  .projects-box {
     flex-direction: column;
-  }
-  .project-pic {
-    width: 100%;
+    padding: 1rem;
   }
 
   /* blog page */
   .blog-content {
     flex-direction: column;
+    padding: 1rem;
   }
   .card {
     width: 100%;
@@ -312,15 +342,10 @@
     width: 100%;
   }
   /* contact page */
+  .contact-section {
+    width: 90%;
+  }
   .hero-contact {
-    height: 100%;
-    padding: 5%;
-  }
-  .contact-box {
-    width: 100%;
-    padding: 20px;
-  }
-  .contact-links {
-    font-size: 1.4rem;
+    padding: 1rem 0 1rem 0;
   }
 }

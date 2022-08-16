@@ -19,28 +19,40 @@
   </head>
 
   <body>
-    <!-- header with logo and links  -->
-    <header id="nav-placeholder"></header>
-
+    <header>
+      <!-- header with logo and links  -->
+      <nav id="nav-placeholder"></nav>
+    </header>
     <!-- main section of page -->
     <main class="hero">
-      <!-- profile pic -->
-      <img class="profile-pic" src="images/me.png" alt="profile photo" />
-      <!-- info about me -->
-      <article class="text-box">
-        <h1 class="main-heading">ABOUT ME</h1>
-        <hr />
-        <p class="text">
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
-          delectus, quas alias tempore quia magni earum in eveniet dolorem neque
-          nobis, vitae aliquam et a explicabo adipisci fugiat perspiciatis
-          aperiam."
-        </p>
-      </article>
+      <section class="text-box">
+        <!-- component using HTML and CSS to contain graphical content that are appropriate for audience. -->
+        <!-- profile pic -->
+        <img class="profile-pic" src="images/me.png" alt="profile photo" />
+        <!-- component which contains text content that are styled appropriately for audience -->
+        <article class="about-article">
+          <h1 class="main-heading">ABOUT ME</h1>
+          <hr />
+
+          <p class="text">
+            Hi, Mitchell Roger here. I recently enrolled in the Coder Academy
+            web development boot camp course as a student to gain experience and
+            further my skills. Before the coder academy I was a supervisor for a
+            metal roofing and construction company, and during my time there I
+            helped complete projects safely and on time to grow and expand the
+            business. I currently live in Lake Macquarie, and when I'm not busy
+            you can find me learning guitar or listening to music. To check out
+            my resume
+            <a class="resume" href="/uploads/Resume.pdf" target="_blank"
+              >click here</a
+            >
+          </p>
+        </article>
+      </section>
     </main>
     <!-- footer -->
-    <footer class="footer">
-      <p>Created by Mitchell Roger. © 2020</p>
+    <footer>
+      <p>Created by Mitchell Roger. © 2022</p>
     </footer>
     <!-- load the jquery -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
