@@ -236,7 +236,7 @@ aside {
   display: flex;
   flex-direction: column;
   background-color: #0f2027;
-  padding: 1rem;
+  padding: 2rem;
   gap: 1rem;
   box-shadow: rgb(255, 255, 255) 0px 5px 30px;
 }
