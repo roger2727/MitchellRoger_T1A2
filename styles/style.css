@@ -7,6 +7,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 100;
 }
+
 /*************************** navbar *****************************/
 /* header box */
 .header-box {
@@ -108,8 +109,8 @@
   width: 100%;
 }
 /* box for the blog posts */
-aside {
-  background-color: #0f2027;
+.card-pic {
+  display: flex;
 }
 /* change the color of text */
 /****** text component 2/4 ***/
@@ -225,7 +226,7 @@ aside {
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
   display: flex;
   justify-content: center;
-  padding: 2.5rem;
+  padding: 2rem;
   align-items: center;
 }
 /* section box */
@@ -237,9 +238,11 @@ aside {
   display: flex;
   flex-direction: column;
   background-color: #0f2027;
-  padding: 2rem;
+  margin: 4rem;
+  padding: 1rem;
   gap: 1rem;
   box-shadow: rgb(255, 255, 255) 0px 5px 30px;
+  border-radius: 8px;
 }
 /* contact pic */
 /****** image component 4/4 ***/
@@ -260,7 +263,7 @@ aside {
 /* box for the icons */
 .icon-box {
   display: flex;
-  width: 50%;
+
   gap: 1rem;
 }
 /* contact links */
@@ -333,6 +336,9 @@ footer {
     flex-direction: column;
     padding: 1rem;
   }
+  .content-box {
+    padding: 1rem;
+  }
 
   /* blog page */
   .blog-content {
@@ -359,5 +365,9 @@ footer {
   }
   .hero-contact {
     padding: 1rem 0 1rem 0;
+  }
+  .contact-box {
+    padding: 1;
+    margin: 0;
   }
 }
