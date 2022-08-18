@@ -34,6 +34,9 @@
   font-size: 1.2rem;
   color: white;
 }
+.links:hover {
+  color: #e4b200;
+}
 /*************************** home/about page *****************************/
 
 /* main hero of home page */
@@ -88,16 +91,12 @@
   width: 100px;
   padding-right: 2rem;
 }
-/* card that holds content */
-.projects-box {
-  display: flex;
-  background-color: rgb(15, 32, 39);
-  box-shadow: rgb(0 0 0 / 70%) 0px 5px 30px;
-}
+
 /* box with all the content inside */
 .content-box {
   display: flex;
   flex-direction: column;
+  width: 100%;
   padding: 3rem;
   gap: 1rem;
   background-color: #0f2027;
@@ -337,7 +336,7 @@ footer {
     padding: 1rem;
   }
   .content-box {
-    padding: 1rem;
+    padding: 2rem;
   }
 
   /* blog page */
