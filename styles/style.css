@@ -41,7 +41,7 @@
 
 /* main hero of home page */
 .hero {
-  padding: 5rem;
+  padding: 8rem;
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
 }
 /* main heading to home page */
@@ -225,7 +225,7 @@
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem 3rem 8rem 3rem;
   align-items: center;
 }
 /* section box */
@@ -363,7 +363,7 @@ footer {
     width: 90%;
   }
   .hero-contact {
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0 6rem 0;
   }
   .contact-box {
     padding: 1;
