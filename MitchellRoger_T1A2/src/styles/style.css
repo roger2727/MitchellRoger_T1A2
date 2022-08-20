@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+/* changes the default on all pages and add the font weight*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+/*************************** navbar *****************************/
+/* header box */
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f2027;
+}
+/* logo */
+.logo {
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+}
+/* navigation links box */
+.nav-links {
+  display: flex;
+  gap: 10rem;
+  padding: 1rem;
+}
+/* links  */
+.links {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+.links:hover {
+  color: #e4b200;
+}
+/*************************** home/about page *****************************/
+
+/* main hero of home page */
+.hero {
+  padding: 8rem;
+  background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
+}
+/* main heading to home page */
+.main-heading {
+  color: #e4b200;
+}
+/* profile pic */
+/****** image component 1/4 ***/
+.profile-pic {
+  box-shadow: rgb(255, 255, 255) 0px 5px 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* text box that surrounds text */
+.text-box {
+  display: flex;
+  background-color: #0f2027;
+  align-items: center;
+  align-content: center;
+  border-radius: 8px;
+  height: 100%;
+}
+/****** text component 1/4 ***/
+.text {
+  padding-top: 1rem;
+  color: white;
+}
+/* resume link */
+.resume {
+  color: #e4b200;
+  text-decoration: none;
+}
+/* when hover over link it grows */
+.resume:hover {
+  font-size: 1.2rem;
+}
+.about-article {
+  padding: 5rem;
+}
+
+/*************************** skills and project page *****************************/
+/* main hero to projects */
+.hero-projects {
+  display: flex;
+  background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
+  padding: 5rem;
+}
+/* icons on skills and projects */
+.icons {
+  width: 10%;
+}
+
+/* box with all the content inside */
+.content-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem;
+  gap: 1rem;
+  background-color: #0f2027;
+  justify-content: space-evenly;
+}
+/* project picture */
+/****** image component 2/4 ***/
+.project-pic {
+  width: 100%;
+  object-fit: cover;
+}
+/* box for the blog posts */
+.card-pic {
+  display: flex;
+}
+/* change the color of text */
+/****** text component 2/4 ***/
+.project-text {
+  color: white;
+}
+.project-heading {
+  color: #e4b200;
+}
+.sub-heading {
+  color: #e4b200;
+}
+.project-list {
+  color: #e4b200;
+}
+
+/* source code button */
+.project-links {
+  color: white;
+
+  padding: 1rem;
+  text-decoration: none;
+  background-color: #56698f;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.project-links:hover {
+  background-color: #e4b200;
+}
+.heading-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*************************** blog page *****************************/
+
+/* card for blog post */
+
+/* main hero */
+.blog-content {
+  background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
+  display: flex;
+  padding: 1rem;
+}
+/* ----blog list section----- */
+.blog-list-box {
+  height: 100%;
+  width: 70%;
+  position: sticky;
+  top: 0;
+  background-color: #0f2027;
+  padding: 1rem;
+}
+/* blog picture */
+/****** image component 3/4 ***/
+.blog-list-pic {
+  width: 100%;
+  height: 40px;
+  object-fit: cover;
+}
+.blog-list-pic:hover {
+  box-shadow: rgb(255, 255, 255) 0px 5px 30px;
+}
+/* blog links to post */
+.blog-links {
+  color: #e4b200;
+  text-decoration: none;
+}
+.date {
+  color: white;
+}
+
+/* box for the blog list */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  background-color: #0f2027;
+}
+/* -----blog post section----- */
+.aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+/* box for the blog list */
+.card {
+  background-color: #0f2027;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 70%;
+}
+.heading {
+  background-color: #0f2027;
+  color: #e4b200;
+  padding-bottom: 1rem;
+}
+/* blog post text */
+.blog {
+  padding-top: 1rem;
+}
+
+.blog-pic {
+  width: 100%;
+}
+/* blog post heading */
+.blog-heading {
+  color: #e4b200;
+  text-align: center;
+}
+/****** text component 3/4 ***/
+.blog {
+  padding: 1rem;
+  color: white;
+}
+
+/*************************** contact page *****************************/
+
+.hero-contact {
+  background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+/* section box */
+.contact-section {
+  width: 50%;
+}
+/* contact box */
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f2027;
+
+  padding: 1rem;
+  gap: 1rem;
+
+  border-radius: 8px;
+}
+/* contact pic */
+/****** image component 4/4 ***/
+.contact-pic {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+/* icons */
+.contact-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/****** text component 4/4 ***/
+.contact-text {
+  color: white;
+}
+/* box for the icons */
+.icon-box {
+  display: flex;
+
+  gap: 1rem;
+}
+/* contact links */
+.contact-links {
+  color: white;
+  text-decoration: none;
+}
+.social-box {
+  display: flex;
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/* social icons */
+.social-icons {
+  width: 50px;
+}
+.social-icons:hover {
+  transform: scale(1.5);
+}
+/*************************** footer *****************************/
+footer {
+  padding: 1rem;
+  background-color: #0f2027;
+  color: white;
+  text-align: center;
+}
+
+/*************************** media querie *****************************/
+@media only screen and (max-width: 1000px) {
+  /* nav bar */
+  /* removes margin and drops the nav bar vertical */
+  .header-box {
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0%;
+  }
+  /* removes padding on logo */
+  .logo {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-left: 20px;
+  }
+  /* makes all the link go vertical */
+  .nav-links {
+    flex-direction: column;
+    gap: 1em;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  /* about me page */
+
+  /* shrinks the pic and makes it a circle */
+  .profile-pic {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    margin-top: 1rem;
+    border-radius: 50%;
+  }
+  /* drops the padding */
+  .about-article {
+    padding: 1rem;
+  }
+  /* shrinks the padding */
+  .hero {
+    padding: 1rem;
+  }
+  /* make the text box bigger */
+  .text-box {
+    flex-direction: column;
+    width: 100%;
+  }
+  /* skills and projects page */
+  .hero-projects {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .content-box {
+    padding: 2rem;
+  }
+
+  .icons {
+    gap: 10rem;
+  }
+
+  /* blog page */
+  .blog-content {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .blog-content {
+    gap: 30px;
+  }
+  .blog-list-box {
+    width: 100%;
+    position: relative;
+    top: auto;
+  }
+  .aside {
+    width: 100%;
+  }
+  /* contact page */
+  .contact-section {
+    width: 90%;
+
+    padding-top: 1rem;
+  }
+  .hero-contact {
+    height: 100%;
+  }
+}
