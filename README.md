@@ -9,6 +9,7 @@ This is my portfolio and it shows off my skills and accomplishments. \
 - [General Info](#general-information)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
+- [Sitemap](#sitemap)
 - [Screenshots](#screenshots)
 - [Project Status](#project-status)
 
@@ -35,12 +36,13 @@ This is my portfolio and it shows off my skills and accomplishments. \
 - skills section that shows my project and a link to the repo
 - Contact section with links to send an email, call my number and my location.
 
+## Sitemap
+
+![Sitemap](/docs/Screen%20Shot%202022-08-20%20at%202.54.09%20pm.png)
+
 ## Screenshots
 
-![Example screenshot](images/screenshots/HomePage.png)
-![Example screenshot](images/screenshots/SkillsPage.png)
-![Example screenshot](images/screenshots/BlogPage.png)
-![Example screenshot](images/screenshots/ContactPage.png)
+![Example screenshot](/docs/Screen%20Shot%202022-08-20%20at%208.42.31%20pm.png)
 
 ## Project Status
 
