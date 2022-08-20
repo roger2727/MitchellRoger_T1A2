@@ -43,7 +43,6 @@
 .hero {
   padding: 8rem;
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
-  height: 100vh;
 }
 /* main heading to home page */
 .main-heading {
@@ -180,6 +179,9 @@
   height: 40px;
   object-fit: cover;
 }
+.blog-list-pic:hover {
+  box-shadow: rgb(255, 255, 255) 0px 5px 30px;
+}
 /* blog links to post */
 .blog-links {
   color: #e4b200;
@@ -287,11 +289,19 @@
   color: white;
   text-decoration: none;
 }
+.social-box {
+  display: flex;
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 /* social icons */
 .social-icons {
   width: 50px;
 }
-
+.social-icons:hover {
+  transform: scale(1.5);
+}
 /*************************** footer *****************************/
 footer {
   padding: 1rem;
@@ -328,8 +338,8 @@ footer {
 
   /* shrinks the pic and makes it a circle */
   .profile-pic {
-    width: 230px;
-    height: 230px;
+    width: 10rem;
+    height: 10rem;
     object-fit: cover;
     margin-top: 1rem;
     border-radius: 50%;
@@ -382,5 +392,10 @@ footer {
   /* contact page */
   .contact-section {
     width: 90%;
+
+    padding-top: 1rem;
+  }
+  .hero-contact {
+    height: 100%;
   }
 }
