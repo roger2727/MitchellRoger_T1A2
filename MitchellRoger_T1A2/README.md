@@ -42,10 +42,7 @@ This is my portfolio and it shows off my skills and accomplishments. \
 
 ## Screenshots
 
-![Example screenshot](/docs/HomePage.png)
-![Example screenshot](/docs/SkillsPage.png)
-![Example screenshot](/docs/BlogPage.png)
-![Example screenshot](/docs/ContactPage.png)
+![Example screenshot](/docs/Screen%20Shot%202022-08-20%20at%208.42.31%20pm.png)
 
 ## Project Status
 
