@@ -15,16 +15,17 @@ This is my portfolio and it shows off my skills and accomplishments. \
 
 ## General Information
 
-- This portfolio has an about me page, a skills and projects page, a blog page and a contact info page.
+- My potfolio has a about page a skills page a blog section and a contact page
 - The purpose of the portfolio is to show my skills using HTML and CSS to potential employers.
-- I took on this project to have it go with my resume to get a job in web development.
-- The project was also an assignment that was required from the coder academy boot camp course to get a diploma in IT.
+- this project is to go with my resume to get a job in web development.
+- The project is a assignment that was required from the [Coder Academy](https://www.coderacademy.edu.au/) course to go toward to getting a diploma in IT.
+- The portfolio is targeted to employers that are in the web development sector
 
 ## Technologies Used
 
 - HTML (HyperText Markup Language)
 - CSS (Cascading Style Sheets)
-- jQuery (JavaScript Framework Library - commonly used in Ajax development)
+- jQuery
 - Deployment platform (Netlify)
 
 ## Features
@@ -35,6 +36,7 @@ This is my portfolio and it shows off my skills and accomplishments. \
 - Social media icons that link to my profiles.
 - skills section that shows my project and a link to the repo
 - Contact section with links to send an email, call my number and my location.
+- Footer has social media links to my personal accounts
 
 ## Sitemap
 
