@@ -295,6 +295,7 @@
 footer {
   display: flex;
   background-color: #0f2027;
+
   color: white;
   flex-direction: row;
   flex-wrap: wrap;
@@ -358,6 +359,7 @@ footer {
   /* shrinks the padding */
   .hero {
     padding: 1rem;
+    height: 100vh;
   }
   /* make the text box bigger */
   .text-box {
