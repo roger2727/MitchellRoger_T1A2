@@ -2,7 +2,8 @@
 
 This is my portfolio and it shows off my skills and accomplishments. \
  Web site link [_here_](https://bright-peony-2cc4d9.netlify.app/). \
-Github repo [_here_](https://github.com/roger2727/MitchellRoger_T1A2).
+Github repo [_here_](https://github.com/roger2727/MitchellRoger_T1A2). \
+link to video presentation [_here_](https://vimeo.com/manage/videos/742514843).
 
 ## Table of Contents
 
