@@ -1,3 +1,4 @@
+/* gets font family from goole fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
 /* changes the default on all pages and add the font weight*/
 * {
@@ -334,7 +335,7 @@ footer {
     text-align: center;
     padding-left: 20px;
   }
-  /* makes all the link go vertical */
+  /* makes all the links go vertical */
   .nav-links {
     flex-direction: column;
     gap: 1em;
